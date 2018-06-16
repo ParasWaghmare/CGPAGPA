@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.paras.cgpagpa.CsFirstSem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="Engineering Mathematics-1"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/csGradeFirst1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1">
+
+            </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Applied Physics"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Computer Fundamental"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Engineering Mechanics"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Basic Electronic Engg."
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="WorkShop Practice-1"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Applied Physics Lab"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Computer Fundamental Lab"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst8"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Engineering Mechanics Lab"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst9"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="305dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Basic Electronics Lab"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/csGradeFirst10"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp" />
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:id="@+id/textSet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:hint="SGPA"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp" />
+
+        <TextView
+            android:id="@+id/csFirstPercentage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="47dp"
+            android:hint="@string/percentage"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="displayResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+         />
+
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

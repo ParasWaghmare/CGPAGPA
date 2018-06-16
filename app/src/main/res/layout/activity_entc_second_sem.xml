@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.paras.cgpagpa.EntcSecondSem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mathematics_2"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/entcGradeSecond1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/entcSecondSpinner1">
+
+            </Spinner>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/applied_physics"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+
+            <Spinner
+                android:id="@+id/entcSecondSpinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_fundamental"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mechanics"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+
+            <Spinner
+                android:id="@+id/entcSecondSpinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_electronic_engg"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/workshop_practice_1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+
+            <Spinner
+                android:id="@+id/entcSecondSpinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/applied_physics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_fundamental_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mechanics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_electronics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeSecond10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcSecondSpinner10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/entcSecondSgpa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:hint="@string/sgpa"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/entcSecondPercentage"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="47dp"
+                android:hint="@string/percentage"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/button"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate"
+                android:onClick="displayResultEntcSecond"
+                />
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+</ScrollView>

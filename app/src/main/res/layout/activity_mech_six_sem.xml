@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.paras.cgpagpa.MechSixSem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ice"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner1">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/metrology_quality_control"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner2">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/turbo_machinery"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner3">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/machine_design_2"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner4">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nacm"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner5">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ice_lab"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner6">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mqc_lab"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner7">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/turbo_machinery_lab"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix8"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner8">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/machine_design_2_lab"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix9"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner9">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/miniproject"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix10"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner10">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="@string/self_study_2"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meGradeSix11"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meSixSpinner11">
+
+        </Spinner>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/meSixSgpa"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:hint="@string/sgpa"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/meSixPercentage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="47dp"
+            android:hint="@string/percentage"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp">
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:onClick="displayResultMeSix"
+             />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

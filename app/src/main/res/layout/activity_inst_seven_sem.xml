@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.paras.cgpagpa.InstSevenSem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/digital_image_processing"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/biomedical_instrumentation"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/project_planning_and_estimation"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/plc_and_dcs"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/virtual_instrumentation"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/industrial_drives_and_control"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/instGradeSeven7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/instSevenSpinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

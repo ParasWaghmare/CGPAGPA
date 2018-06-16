@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.paras.cgpagpa.CivFirstSem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mathematics_1"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/civGradeFirst1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/civSpinner1">
+
+            </Spinner>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/applied_physics"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/civSpinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_fundamental"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mechanics"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/civSpinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_electronic_engg"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/workshop_practice_1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/applied_physics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/computer_fundamental_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/engineering_mechanics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_electronics_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/civGradeFirst10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp" />
+            <Spinner
+                android:id="@+id/civSpinner10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:id="@+id/civFirstSgpa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:hint="SGPA"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp" />
+
+            <TextView
+                android:id="@+id/civFirstPercentage"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="47dp"
+                android:hint="@string/percentage"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:onClick="displayCivFirstResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

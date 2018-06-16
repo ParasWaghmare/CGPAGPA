@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.paras.cgpagpa.EleFourthSem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/electromagnetic_fields"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth1">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fundamental_of_electrical_machinery"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth2">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/digital_electronics_and_microprocessors"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth3">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/power_system"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth4">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/signals_and_systems"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth5">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/general_profeciency_2"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth6">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/electrical_workshop"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth7">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/digital_electronics_and_microprocessor_lab"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth8">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/signals_and_system_lab"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth9">
+
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/power_system_lab"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth10">
+
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="@string/electrical_machines_lab"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/eleGradeFourth11"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eleSpinnerFourth11">
+
+            </Spinner>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/eleSgpaFourth"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:hint="@string/sgpa"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/eleFourthPercentage"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="47dp"
+                android:hint="@string/percentage"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2sp">
+            <Button
+                android:id="@+id/button"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:onClick="displayResultEleFourth"
+                 />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.paras.cgpagpa.EntcFourthSem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/signals_and_systems"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/signals_and_system_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/electronics_circuits_and_applications"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/electronics_circuits_and_application_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/microprocessor_and_microcontroller"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/microprocessor_and_microcontrollers_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/analog_communication"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/analog_communication_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/human_resource_and_economics"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="305dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/data_structures_lab"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/entcGradeFourth10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22sp" />
+            <Spinner
+                android:id="@+id/entcFourthSpinner10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/entcFourthSgpa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:hint="@string/sgpa"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/entcFourthPercentage"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="47dp"
+                android:hint="@string/percentage"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/button"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate"
+                android:onClick="displayResultEntcFourth"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

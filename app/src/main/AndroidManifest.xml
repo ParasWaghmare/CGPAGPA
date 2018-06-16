@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paras.cgpagpa">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GpaCalculation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".CgpaCalculation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".SemCs" />
+        <activity android:name=".SemMech" />
+        <activity android:name=".SemEle" />
+        <activity android:name=".SemInst" />
+        <activity android:name=".SemCiv" />
+        <activity android:name=".SemEntc" />
+        <activity android:name=".CsFirstSem" />
+        <activity android:name=".CsSecondSem" />
+        <activity android:name=".CsThirdSem" />
+        <activity android:name=".CsFourthSem" />
+        <activity android:name=".CsFifthSem" />
+        <activity android:name=".CsSixSem" />
+        <activity android:name=".CsSevenSem" />
+        <activity android:name=".CsEightSem" />
+        <activity android:name=".MechFirstSem" />
+        <activity android:name=".MechSecondSem" />
+        <activity android:name=".MechThirdSem" />
+        <activity android:name=".MechFourthSem" />
+        <activity android:name=".MechFifthSem" />
+        <activity android:name=".MechSixSem" />
+        <activity android:name=".MechSevenSem" />
+        <activity android:name=".MechEightSem" />
+        <activity android:name=".InstFirstSem" />
+        <activity android:name=".InstSecondSem" />
+        <activity android:name=".InstThirdSem" />
+        <activity android:name=".InstFourthSem" />
+        <activity android:name=".InstFifthSem" />
+        <activity android:name=".InstSixthSem" />
+        <activity android:name=".InstSevenSem" />
+        <activity android:name=".InstEightSem" />
+        <activity android:name=".EntcFirstSem" />
+        <activity android:name=".EntcSecondSem" />
+        <activity android:name=".EntcThirdSem" />
+        <activity android:name=".EntcFourthSem" />
+        <activity android:name=".EntcFifthSem" />
+        <activity android:name=".EntcSixthSem" />
+        <activity android:name=".EntcSevenSem" />
+        <activity android:name=".EntcEightSem" />
+        <activity android:name=".EleFirstSem" />
+        <activity android:name=".EleSecondSem" />
+        <activity android:name=".EleThirdSem" />
+        <activity android:name=".EleFourthSem" />
+        <activity android:name=".EleFifthSem" />
+        <activity android:name=".EleSixSem" />
+        <activity android:name=".EleSevenSem" />
+        <activity android:name=".EleEightSem" />
+        <activity android:name=".CivFirstSem" />
+        <activity android:name=".CivSecondSem" />
+        <activity android:name=".CivThirdSem" />
+        <activity android:name=".CivFourthSem" />
+        <activity android:name=".CivFifthSem" />
+        <activity android:name=".CivSixthSem" />
+        <activity android:name=".CivSevenSem" />
+        <activity android:name=".CivEightSem" />
+        <activity android:name=".CgpaFirst" />
+        <activity android:name=".CgpaSecond" />
+        <activity android:name=".CgpaThird" />
+        <activity android:name=".CgpaFourth" />
+        <activity android:name=".CgpaFifth" />
+        <activity android:name=".CgpaSixth" />
+        <activity android:name=".CgpaSeven" />
+        <activity android:name=".CgpaEight"></activity>
+    </application>
+
+</manifest>
